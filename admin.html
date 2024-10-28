@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/admin.js"></script>
+</head>
+<body class="dark-theme">
+    <header>
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </header>
+    <main>
+        <h1>Admin Dashboard</h1>
+        <p>Currently logged in users: <span id="userCount">0</span></p>
+        
+        <button onclick="shutdownWebsite()">Shutdown Website Servers</button>
+        <button onclick="disableLogin()">Disable Login</button>
+    </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/admin.js"></script>
+</head>
+<body class="dark-theme">
+    <header>
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </header>
+    <main>
+        <h1>Admin Dashboard</h1>
+        <p>Currently logged-in users: <span id="userCount">0</span></p>
+        
+        <button onclick="shutdownWebsite()">Shutdown Website Servers</button>
+        <button onclick="disableLogin()">Disable Login</button>
+        <button onclick="unshutdownWebsite()">Unshutdown Website</button>
+    </main>
+</body>
+</html>
